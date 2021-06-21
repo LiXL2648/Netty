@@ -10,5 +10,11 @@ public class NettyTest {
         int processors = NettyRuntime.availableProcessors();
         System.out.println(processors);
     }
+
+
+    @Test
+    public void testBitOption() {
+        System.out.println(5&4);
+    }
 }
 

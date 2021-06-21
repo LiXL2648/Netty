@@ -5,7 +5,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 
 public class GroupChatClientHandler extends SimpleChannelInboundHandler<String> {
     @Override
-    protected void channelRead0(ChannelHandlerContext channelHandlerContext, String s) throws Exception {
+    protected void channelRead0(ChannelHandlerContext channelHandlerContext, String s) {
         System.out.println(s);
     }
 }
